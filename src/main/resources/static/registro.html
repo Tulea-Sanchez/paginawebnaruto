@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Naruto</title>
+        <meta charset="UTF-8">
+        <link href="css/menu.css" rel="stylesheet" type="text/css">
+    </head>
+    <hr>
+    <body>
+        <header class="header">
+        <nav>
+         
+            <a class="logo nav-link" href="index.html"><img src="logo/logo.png" WIDTH=120 HEIGHT=64></a>
+            <ul class="nav-menu">
+               <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="episodios.html">Episodios</a></li>
+               <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="canciones.html">Canciones</a></li>
+               <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="descripcion.html">Descripcion</a></li>
+               <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="desgloce.html">Desgloce episodios</a></li>
+               <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="creditos.html">Creditos</a></li>
+               <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="crunchyroll.html">Crunchyroll</a></li>
+               <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="registro.html">Registro</a></li>
+            </ul>
+        </nav>
+        </header>
+        <hr>
+        
+        <section>
+            <h2>Registro</h2>
+            <article>
+                <header><h3>Ingrese la información</h3></header>
+                <form action="/cliente/ingresar" method="post">
+                    <input type="hidden" name="id" value="AB-450">
+
+                    <fieldset>
+                        <label>Nombre</label>
+                        <input 
+                            type="text" 
+                            name="nombre" 
+                            placeholder="Apellido1 Apellido2 Nombre"
+                            size="45">
+                    </fieldset>
+
+                    <fieldset>                        
+                        <label>Edad</label>
+                        <input 
+                            type="number" 
+                            name="edad"
+                            min="18"
+                            max="65">
+                    </fieldset>
+
+                    <fieldset>
+                        <label>correo</label>
+                        <input 
+                            type="text" 
+                            name="correo" 
+                            placeholder="example@example"
+                            size="45">
+                    </fieldset>
+
+                    <fieldset>
+                        <label>nickname</label>
+                        <input 
+                            type="text" 
+                            name="nickname" 
+                            placeholder="example: tulea"
+                            size="45">
+                    </fieldset>
+
+                    <input type="submit" value="enviar" name="enviar"/>
+                </form>
+                <footer><small>al registrace acepta los terminos y condiciones de la pagina</small></footer>
+            </article>
+        </section>
+        <hr>
+        <footer>
+            <p>Desarrollado por Michael SM 2022 &copy <a href="mailto:tuleajr@icloud.com">Contactenos</a></p>
+        </footer> 
+    </body>
+</html>
