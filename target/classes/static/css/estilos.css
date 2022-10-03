@@ -1,0 +1,57 @@
+#titulo {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 44px;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+article header {
+    background-color: blue;
+    color: white;
+}
+
+.producto {
+    background-color:darkgray;
+}
+
+nav a {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    animation-delay: 1s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: red;
+    font-size: 21px;
+    animation-delay: 1s;
+}
+
+
+
+article a:hover {
+    color: green;
+
+    animation-delay: 2s;
+}
+
+article:nth-child(odd) {
+    color:cadetblue;
+}
+
+article:nth-child(event) {
+    color: brown;
+}
